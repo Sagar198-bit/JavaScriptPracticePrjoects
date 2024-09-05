@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d2a35;
+}
+
+#navbar {
+
+    height: 5rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar> :first-child {
+    background-color: #04AA6D;
+}
+
+a {
+    background-color: #555;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: black;
+}
+
+i {
+    color: white;
+}
+
+a {
+    padding: 2rem 4rem;
+}

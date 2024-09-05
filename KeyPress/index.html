@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyPressCode</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            height: 100vh;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        input[type="text"] {
+            width: 400px;
+            height: 30px;
+            margin: 10px 0;
+            color: black;
+            font-size: 25px;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Type Here Something....</h1>
+        <input type="text" name="TextPlaceHolder" id="texxt" placeholder="">
+        <h2>What you have Pressed: <span id="Press"></span></h2>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
